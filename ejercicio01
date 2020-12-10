@@ -1,0 +1,15 @@
+(function(){
+
+let PERSONAJE = {
+  nombre: 'Andre',
+  edad: 23,
+  nacionalidad : 'Peruana'
+};
+
+imprimir(PERSONAJE);
+
+function imprimir({nombre, edad, nacionalidad}) {
+    console.log(`Mi nombre es ${nombre} mi edad es ${edad} y mi nacionalidad es ${nacionalidad}`);
+}
+
+})();
